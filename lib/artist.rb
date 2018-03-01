@@ -5,7 +5,4 @@ class Artist
     @name = name
   end
   artist = Artist.new(name)
-  song = Song.new(title)
 end
-
-
