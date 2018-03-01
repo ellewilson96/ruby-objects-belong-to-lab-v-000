@@ -6,5 +6,5 @@ class Artist
   end
 end
 
-artist = Artist.new
-song = Song.new
+artist = Artist.new(name)
+song = Song.new(title)
