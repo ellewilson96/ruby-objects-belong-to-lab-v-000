@@ -5,5 +5,5 @@ class Song
   def initialize(title)
     @title = title
   end
-  song = Song.new(title)
+  song = Song.new
 end
