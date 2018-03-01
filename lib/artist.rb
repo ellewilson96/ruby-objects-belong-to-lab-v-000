@@ -3,6 +3,8 @@ class Artist
 
   def initialize(artist, song)
     @artist = artist
+    artist = Artist.new
     @song = song
+    song = Song.new
   end
 end
